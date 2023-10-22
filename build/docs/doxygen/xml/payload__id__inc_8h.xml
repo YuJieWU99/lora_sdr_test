@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="payload__id__inc_8h" kind="file">
+    <compoundname>payload_id_inc.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/lora_sdr/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="payload__id__inc__impl_8h" local="no">payload_id_inc_impl.h</includedby>
+    <incdepgraph>
+      <node id="356">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="354">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="355" relation="include">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="353">
+        <label>payload_id_inc.h</label>
+        <link refid="payload_id_inc.h"/>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="356" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="358">
+        <label>payload_id_inc_impl.h</label>
+        <link refid="payload__id__inc__impl_8h"/>
+      </node>
+      <node id="357">
+        <label>payload_id_inc.h</label>
+        <link refid="payload_id_inc.h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1payload__id__inc" prot="public">gr::lora_sdr::payload_id_inc</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/payload_id_inc.h"/>
+  </compounddef>
+</doxygen>

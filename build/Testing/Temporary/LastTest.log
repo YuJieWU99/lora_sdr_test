@@ -1,0 +1,123 @@
+Start testing: Oct 20 18:20 CEST
+----------------------------------------------------------
+1/1 Testing: qa_whitening
+1/1 Test: qa_whitening
+Command: "/usr/bin/sh" "qa_whitening_test.sh"
+Directory: /home/yujwu/Documents/gr-lora_sdr/build/python/lora_sdr
+"qa_whitening" start time: Oct 20 18:20 CEST
+Output:
+----------------------------------------------------------
+hello
+
+, , , 
+, 
+, 
+, 
+, 
+, 
+, 
+, ,, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+1
+20
+.hello
+H, z, t, l, X, c, p, s, e, g, z, p, n, b, k, q, ,, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+, 
+1
+32
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.008s
+
+OK
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"qa_whitening" end time: Oct 20 18:20 CEST
+"qa_whitening" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 18:20 CEST

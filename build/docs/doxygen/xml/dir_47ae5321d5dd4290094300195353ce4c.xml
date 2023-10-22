@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="dir_47ae5321d5dd4290094300195353ce4c" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="add__crc__pydoc__template_8h">add_crc_pydoc_template.h</innerfile>
+    <innerfile refid="crc__verif__pydoc__template_8h">crc_verif_pydoc_template.h</innerfile>
+    <innerfile refid="data__source__pydoc__template_8h">data_source_pydoc_template.h</innerfile>
+    <innerfile refid="deinterleaver__pydoc__template_8h">deinterleaver_pydoc_template.h</innerfile>
+    <innerfile refid="dewhitening__pydoc__template_8h">dewhitening_pydoc_template.h</innerfile>
+    <innerfile refid="fft__demod__pydoc__template_8h">fft_demod_pydoc_template.h</innerfile>
+    <innerfile refid="frame__sync__pydoc__template_8h">frame_sync_pydoc_template.h</innerfile>
+    <innerfile refid="gray__demap__pydoc__template_8h">gray_demap_pydoc_template.h</innerfile>
+    <innerfile refid="gray__mapping__pydoc__template_8h">gray_mapping_pydoc_template.h</innerfile>
+    <innerfile refid="hamming__dec__pydoc__template_8h">hamming_dec_pydoc_template.h</innerfile>
+    <innerfile refid="hamming__enc__pydoc__template_8h">hamming_enc_pydoc_template.h</innerfile>
+    <innerfile refid="header__decoder__pydoc__template_8h">header_decoder_pydoc_template.h</innerfile>
+    <innerfile refid="header__pydoc__template_8h">header_pydoc_template.h</innerfile>
+    <innerfile refid="interleaver__pydoc__template_8h">interleaver_pydoc_template.h</innerfile>
+    <innerfile refid="modulate__pydoc__template_8h">modulate_pydoc_template.h</innerfile>
+    <innerfile refid="payload__id__inc__pydoc__template_8h">payload_id_inc_pydoc_template.h</innerfile>
+    <innerfile refid="RH__RF95__header__pydoc__template_8h">RH_RF95_header_pydoc_template.h</innerfile>
+    <innerfile refid="utilities__pydoc__template_8h">utilities_pydoc_template.h</innerfile>
+    <innerfile refid="whitening__pydoc__template_8h">whitening_pydoc_template.h</innerfile>
+    <innerfile refid="whiteningt__pydoc__template_8h">whiteningt_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/python/lora_sdr/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

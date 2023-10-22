@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classgr_1_1lora__sdr_1_1whiteningt" kind="class" prot="public">
+    <compoundname>gr::lora_sdr::whiteningt</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1lora__sdr_1_1whiteningt__impl" prot="public" virt="non-virtual">gr::lora_sdr::whiteningt_impl</derivedcompoundref>
+    <includes refid="whiteningt_8h" local="no">whiteningt.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1lora__sdr_1_1whiteningt_1a1933eb5c5ab24c6f63c7ae3c1a1c03a8" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1lora__sdr_1_1whiteningt" kindref="compound">whiteningt</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;whiteningt&gt; gr::lora_sdr::whiteningt::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h" line="694" column="1" bodyfile="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h" bodystart="694" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1lora__sdr_1_1whiteningt_1ab45ab06a00aa322eecd7c93af11d5905" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1lora__sdr_1_1whiteningt_1a1933eb5c5ab24c6f63c7ae3c1a1c03a8" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::lora_sdr::whiteningt::make</definition>
+        <argsstring>(bool is_hex, bool use_length_tag, char separator, std::string length_tag_name)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>is_hex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_length_tag</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>separator</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>length_tag_name</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1lora__sdr_1_1whiteningt" kindref="compound">lora_sdr::whiteningt</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1lora__sdr_1_1whiteningt" kindref="compound">lora_sdr::whiteningt</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1lora__sdr_1_1whiteningt_1ab45ab06a00aa322eecd7c93af11d5905" kindref="member">lora_sdr::whiteningt::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h" line="704" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="205">
+        <label>gr::lora_sdr::whiteningt_impl</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt__impl"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="204">
+        <label>sync_block</label>
+      </node>
+      <node id="203">
+        <label>gr::lora_sdr::whiteningt</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt"/>
+        <childnode refid="204" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="207">
+        <label>sync_block</label>
+      </node>
+      <node id="206">
+        <label>gr::lora_sdr::whiteningt</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt"/>
+        <childnode refid="207" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h" line="692" column="1" bodyfile="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h" bodystart="692" bodyend="706"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt_1ab45ab06a00aa322eecd7c93af11d5905" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt</scope><name>make</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt_1a1933eb5c5ab24c6f63c7ae3c1a1c03a8" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

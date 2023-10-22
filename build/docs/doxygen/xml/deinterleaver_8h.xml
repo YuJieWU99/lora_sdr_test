@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="deinterleaver_8h" kind="file">
+    <compoundname>deinterleaver.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/lora_sdr/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="deinterleaver__impl_8h" local="no">deinterleaver_impl.h</includedby>
+    <incdepgraph>
+      <node id="111">
+        <label>deinterleaver.h</label>
+        <link refid="deinterleaver.h"/>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="113" relation="include">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="114">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="115">
+        <label>deinterleaver.h</label>
+        <link refid="deinterleaver.h"/>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>deinterleaver_impl.h</label>
+        <link refid="deinterleaver__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1deinterleaver" prot="public">gr::lora_sdr::deinterleaver</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/deinterleaver.h"/>
+  </compounddef>
+</doxygen>

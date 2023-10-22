@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="gray__mapping_8h" kind="file">
+    <compoundname>gray_mapping.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/lora_sdr/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="gray__mapping__impl_8h" local="no">gray_mapping_impl.h</includedby>
+    <incdepgraph>
+      <node id="215">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="213">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="214" relation="include">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="212">
+        <label>gray_mapping.h</label>
+        <link refid="gray_mapping.h"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="217">
+        <label>gray_mapping_impl.h</label>
+        <link refid="gray__mapping__impl_8h"/>
+      </node>
+      <node id="216">
+        <label>gray_mapping.h</label>
+        <link refid="gray_mapping.h"/>
+        <childnode refid="217" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1gray__mapping" prot="public">gr::lora_sdr::gray_mapping</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/gray_mapping.h"/>
+  </compounddef>
+</doxygen>

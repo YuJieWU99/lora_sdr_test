@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="classgr_1_1lora__sdr_1_1whiteningt__impl" kind="class" prot="public">
+    <compoundname>gr::lora_sdr::whiteningt_impl</compoundname>
+    <basecompoundref refid="classgr_1_1lora__sdr_1_1whiteningt" prot="public" virt="non-virtual">gr::lora_sdr::whiteningt</basecompoundref>
+    <includes refid="whiteningt__impl_8h" local="no">whiteningt_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1lora__sdr_1_1whiteningt__impl_1aaa6b8ac379e0558f80f3a1dcbe676f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lora_sdr::whiteningt_impl::whiteningt_impl</definition>
+        <argsstring>(bool is_hex, bool use_length_tag, char separator, std::string length_tag_name)</argsstring>
+        <name>whiteningt_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>is_hex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>use_length_tag</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>separator</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>length_tag_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yujwu/Documents/gr-lora_sdr/lib/whiteningt_impl.h" line="691" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lora__sdr_1_1whiteningt__impl_1a6582736b2a53c6000f151aac22745d40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::lora_sdr::whiteningt_impl::~whiteningt_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~whiteningt_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yujwu/Documents/gr-lora_sdr/lib/whiteningt_impl.h" line="693" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1lora__sdr_1_1whiteningt__impl_1ab51a83a79e0ad64e22c8c95429ce8c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::lora_sdr::whiteningt_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yujwu/Documents/gr-lora_sdr/lib/whiteningt_impl.h" line="696" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="208">
+        <label>gr::lora_sdr::whiteningt_impl</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt__impl"/>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>sync_block</label>
+      </node>
+      <node id="209">
+        <label>gr::lora_sdr::whiteningt</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="211">
+        <label>gr::lora_sdr::whiteningt_impl</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt__impl"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>sync_block</label>
+      </node>
+      <node id="212">
+        <label>gr::lora_sdr::whiteningt</label>
+        <link refid="classgr_1_1lora__sdr_1_1whiteningt"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/lib/whiteningt_impl.h" line="686" column="1" bodyfile="/home/yujwu/Documents/gr-lora_sdr/lib/whiteningt_impl.h" bodystart="686" bodyend="698"/>
+    <listofallmembers>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt_1ab45ab06a00aa322eecd7c93af11d5905" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt_1a1933eb5c5ab24c6f63c7ae3c1a1c03a8" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt__impl_1aaa6b8ac379e0558f80f3a1dcbe676f3e" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt_impl</scope><name>whiteningt_impl</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt__impl_1ab51a83a79e0ad64e22c8c95429ce8c98" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1lora__sdr_1_1whiteningt__impl_1a6582736b2a53c6000f151aac22745d40" prot="public" virt="non-virtual"><scope>gr::lora_sdr::whiteningt_impl</scope><name>~whiteningt_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

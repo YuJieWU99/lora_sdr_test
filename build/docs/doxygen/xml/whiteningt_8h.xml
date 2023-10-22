@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.5">
+  <compounddef id="whiteningt_8h" kind="file">
+    <compoundname>whiteningt.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/lora_sdr/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="whiteningt__impl_8h" local="no">whiteningt_impl.h</includedby>
+    <incdepgraph>
+      <node id="454">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="452">
+        <label>gnuradio/lora_sdr/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="453" relation="include">
+        </childnode>
+      </node>
+      <node id="453">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="451">
+        <label>whiteningt.h</label>
+        <link refid="whiteningt.h"/>
+        <childnode refid="452" relation="include">
+        </childnode>
+        <childnode refid="454" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="456">
+        <label>whiteningt_impl.h</label>
+        <link refid="whiteningt__impl_8h"/>
+      </node>
+      <node id="455">
+        <label>whiteningt.h</label>
+        <link refid="whiteningt.h"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1lora__sdr_1_1whiteningt" prot="public">gr::lora_sdr::whiteningt</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1lora__sdr">gr::lora_sdr</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yujwu/Documents/gr-lora_sdr/include/gnuradio/lora_sdr/whiteningt.h"/>
+  </compounddef>
+</doxygen>
